@@ -1,0 +1,39 @@
+body{
+
+    background-image: radial-gradient(rgb(248, 204, 117),rgb(106, 154, 242));
+}
+
+
+.container{
+    margin-top: 23px;
+}   
+.row{
+    margin: 8px;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}   
+
+.input{
+    margin: 12px;
+    padding: 25px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);    
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+

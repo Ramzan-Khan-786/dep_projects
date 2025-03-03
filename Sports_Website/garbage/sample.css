@@ -1,0 +1,24 @@
+/* Introduction Section */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(249, 115, 22),
+      white,
+      rgb(19, 136, 8)
+    );
+    background-size: 200% 100%;
+    animation: gradientShift 10s infinite linear;
+  }
+  
+  /* @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  } */
+  
