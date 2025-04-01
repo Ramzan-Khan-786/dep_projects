@@ -17,7 +17,7 @@ function calculatePointer() {
 
   inputs.forEach((input) => {
       let marks = parseFloat(input.value) || 0;
-      let fullMarks = parseFloat(input.getAttribute("data-fullmarks")) ||0;
+      let fullMarks = parseFloat(input.getAttribute("fullmarks")) ||0;
       let percentage = (marks / fullMarks) * 100;
       let credits = parseFloat(input.getAttribute("data-credits")) || 0;
       let gradePoint = 
